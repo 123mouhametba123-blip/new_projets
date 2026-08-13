@@ -5,7 +5,7 @@ function connexionDB():PDO{
 
 try {
     $pdo = new PDO(
-        "pgsql:host=localhost,dbname=connection",
+        "pgsql:host=localhost,dbname=mouhamed",
         "postgres",
         "mouha2007b"
     );

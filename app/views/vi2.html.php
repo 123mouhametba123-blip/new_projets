@@ -580,11 +580,11 @@
       </div>
 
       <button class="btn-submit" type="submit">
-        Se connecter
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="5" y1="12" x2="19" y2="12"></line>
-          <polyline points="12 5 19 12 12 19"></polyline>
-        </svg>
+        <a href="http://localhost:8005/" style="color: green;">
+             Se connecter
+        </a>
+       
+        
       </button>
     </form>
 

@@ -8,7 +8,7 @@ function affichage() {
 
     // var_dump($periodes);
     // die();  
-  // $result3 = getAllTable('classe2');
+   //$result3 = getAllTable('classe2');
   
 
  require_once dirname(__DIR__)."/views/vi1.php";

@@ -278,8 +278,12 @@
         <select id="classe">
           <option>4ème B</option>
           <option>4ème A</option>
-          <option>3ème A</option>
+          <option>3èmeA </option>
           <option>3ème B</option>
+              <?php 
+          foreach ($result2 as $value):?>
+          <option><?php echo $value['nom'] ?></option>
+          <?php endforeach ;?>
         </select>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
       </div>
@@ -303,8 +307,10 @@
       <div class="select-wrap">
         <select id="periode">
           <option>Trimestre 2</option>
-          <option>Trimestre 1</option>
-          <option>Trimestre 3</option>
+             <?php 
+          foreach ($periodes as $value):?>
+          <option><?php echo $value['nom'] ?></option>
+          <?php endforeach ;?>
         </select>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
       </div>
